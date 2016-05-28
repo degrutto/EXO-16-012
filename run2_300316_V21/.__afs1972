@@ -1,0 +1,231 @@
+// Do NOT change. Changes will be lost next time file is generated
+
+#define R__DICTIONARY_FILENAME dIafsdIcerndOchdIuserdIddIdegruttodIscratch3dIVHbbRun2dICMSSW_7_6_3_patch2dIsrcdIrun2_300316_V21dIdOdIGrowTree_noReg_C_ACLiC_dict
+
+/*******************************************************************/
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <string.h>
+#include <assert.h>
+#define G__DICTIONARY
+#include "RConfig.h"
+#include "TClass.h"
+#include "TDictAttributeMap.h"
+#include "TInterpreter.h"
+#include "TROOT.h"
+#include "TBuffer.h"
+#include "TMemberInspector.h"
+#include "TInterpreter.h"
+#include "TVirtualMutex.h"
+#include "TError.h"
+
+#ifndef G__ROOT
+#define G__ROOT
+#endif
+
+#include "RtypesImp.h"
+#include "TIsAProxy.h"
+#include "TFileMergeInfo.h"
+#include <algorithm>
+#include "TCollectionProxyInfo.h"
+/*******************************************************************/
+
+#include "TDataMember.h"
+
+// Since CINT ignores the std namespace, we need to do so in this file.
+namespace std {} using namespace std;
+
+// Header files passed as explicit arguments
+#include "././GrowTree_noReg.C"
+
+// Header files passed via #pragma extra_include
+
+namespace math {
+   namespace ROOT {
+      inline ::ROOT::TGenericClassInfo *GenerateInitInstance();
+      static TClass *math_Dictionary();
+
+      // Function generating the singleton type initializer
+      inline ::ROOT::TGenericClassInfo *GenerateInitInstance()
+      {
+         static ::ROOT::TGenericClassInfo 
+            instance("math", 0 /*version*/, "GrowTree_noReg.C", 37,
+                     ::ROOT::DefineBehavior((void*)0,(void*)0),
+                     &math_Dictionary, 0);
+         return &instance;
+      }
+      // Insure that the inline function is _not_ optimized away by the compiler
+      ::ROOT::TGenericClassInfo *(*_R__UNIQUE_(InitFunctionKeeper))() = &GenerateInitInstance;  
+      // Static variable to force the class initialization
+      static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstance(); R__UseDummy(_R__UNIQUE_(Init));
+
+      // Dictionary for non-ClassDef classes
+      static TClass *math_Dictionary() {
+         return GenerateInitInstance()->GetClass();
+      }
+
+   }
+}
+
+namespace {
+  void TriggerDictionaryInitialization_GrowTree_noReg_C_ACLiC_dict_Impl() {
+    static const char* headers[] = {
+"././GrowTree_noReg.C",
+0
+    };
+    static const char* includePaths[] = {
+"/afs/cern.ch/cms/slc6_amd64_gcc493/lcg/root/6.02.12-kpegke4/include",
+"/afs/cern.ch/user/d/degrutto/scratch3/VHbbRun2/CMSSW_7_6_3_patch2/src",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/cms/cmssw-patch/CMSSW_7_6_3_patch2/src",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/cms/cmssw/CMSSW_7_6_3/src",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/cms/coral/CORAL_2_3_21-kpegke4/include/LCG",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/mctester/1.25.0a-kpegke6/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/lcg/root/6.02.12-kpegke4/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/qt/4.8.1/include/QtDesigner",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/tauolapp/1.1.5-kpegke4/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/charybdis/1.003-kpegke3/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/thepeg/1.9.2p1-kpegke3/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/sherpa/2.1.1-kpegke8/include/SHERPA-MC",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/qt/4.8.1/include/QtOpenGL",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/qt/4.8.1/include/QtGui",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/pythia8/212/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/herwig/6.521-kpegke3/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/qt/4.8.1/include/QtScript",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/qt/4.8.1/include/Qt3Support",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/classlib/3.1.3/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/lhapdf/6.1.5-kpegke3/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/cgal/4.2-kpegke2/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/tkonlinesw/2.7.0/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/qt/4.8.1/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/qt/4.8.1/include/Qt",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/qt/4.8.1/include/QtCore",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/qt/4.8.1/include/QtXml",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/mcdb/1.0.2/interface",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/libungif/4.1.4/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/libtiff/3.9.4/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/libpng/1.6.16-kpegke/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/geant4/10.00.p03-kpegke3/include/Geant4",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/frontier_client/2.8.12-kpegke/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/pcre/7.9__8.33/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/boost/1.57.0-kpegke/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/xz/5.2.1/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/xrootd/4.0.4-kpegke2/include/xrootd/private",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/cms/vdt/v0.3.2-kpegke/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/valgrind/3.10.1/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/toprex/4.23/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/tbb/43_20150316oss/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/tauola/27.121.5/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/sigcpp/2.2.10/include/sigc++-2.0",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/rivet/2.4.0/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/sqlite/3.8.11.1/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/protobuf/2.4.1/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/pacparser/1.3.1/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/oracle/11.2.0.3.0__10.2.0.4.0/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/meschach/1.2.pCMS1/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/libhepml/0.2.1/interface",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/ktjet/1.06-kpegke2/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/jimmy/4.2-kpegke3/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/jemalloc/3.5.0/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/libxml2/2.7.7/include/libxml2",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/herwigpp/2.7.1-kpegke3/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/heppdt/3.03.00/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/hector/1.3.4-kpegke6/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/gsl/1.10/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/libjpg/8b/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/xerces-c/2.8.0/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/gdbm/1.10/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/fftw3/3.3.2/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/fftjet/1.5.0/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/fastjet/3.1.0/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/expat/2.0.1/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/hepmc/2.06.07/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/dpm/1.8.0.1/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/dcap/2.47.8/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/db4/4.4.20/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/curl/7.28.0/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/cppunit/1.12.1/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/clhep/2.2.0.4-kpegke/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/openssl/0.9.8e__1.0.1/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/pythia6/426/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/photos/215.5/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/zlib/1.2.8/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/libuuid/2.22.2/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/castor/2.1.13.9/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/castor/2.1.13.9/include/shift",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/cascade/2.2.04-kpegke3/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/bz2lib/1.0.5/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/python/2.7.6-kpegke/include/python2.7",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/gcc/4.9.3/include/c++/4.9.3",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/gcc/4.9.3/include/c++/4.9.3/x86_64-redhat-linux-gnu",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/gcc/4.9.3/include/c++/4.9.3/backward",
+"/usr/local/include",
+"/usr/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/lcg/root/6.02.12-kpegke4/etc",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/lcg/root/6.02.12-kpegke4/include",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/gcc/4.9.3/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.9.3/../../../../include/c++/4.9.3",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/gcc/4.9.3/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.9.3/../../../../include/c++/4.9.3/x86_64-redhat-linux-gnu",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/external/gcc/4.9.3/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.9.3/../../../../include/c++/4.9.3/backward",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/lcg/root/6.02.12-kpegke4/etc/cling",
+"/build/cmsbuild/auto-builds/CMSSW_7_6_3-slc6_amd64_gcc493/build/CMSSW_7_6_3-build/BUILD/slc6_amd64_gcc493/lcg/root/6.02.12-kpegke4/root-6.02.12",
+"/build/cmsbuild/auto-builds/CMSSW_7_6_3-slc6_amd64_gcc493/build/CMSSW_7_6_3-build/BUILD/slc6_amd64_gcc493/lcg/root/6.02.12-kpegke4/root-6.02.12/",
+"/afs/cern.ch/cms/slc6_amd64_gcc493/lcg/root/6.02.12-kpegke4/include",
+"/afs/cern.ch/user/d/degrutto/scratch3/VHbbRun2/CMSSW_7_6_3_patch2/src/run2_300316_V21/",
+0
+    };
+    static const char* fwdDeclCode = 
+R"DICTFWDDCLS(
+#pragma clang diagnostic ignored "-Wkeyword-compat"
+#pragma clang diagnostic ignored "-Wignored-attributes"
+#pragma clang diagnostic ignored "-Wreturn-type-c-linkage"
+extern int __Cling_Autoloading_Map;
+namespace ROOT{namespace Math{template <class ScalarType = double> class __attribute__((annotate("$clingAutoload$././GrowTree_noReg.C")))  PxPyPzE4D;
+}}
+namespace ROOT{namespace Math{template <class CoordSystem> class __attribute__((annotate("$clingAutoload$././GrowTree_noReg.C")))  LorentzVector;
+}}
+namespace math{typedef ROOT::Math::LorentzVector<ROOT::Math::PxPyPzE4D<double> > XYZTLorentzVector __attribute__((annotate("$clingAutoload$././GrowTree_noReg.C"))) ;}
+)DICTFWDDCLS";
+    static const char* payloadCode = R"DICTPAYLOAD(
+
+#ifndef G__VECTOR_HAS_CLASS_ITERATOR
+  #define G__VECTOR_HAS_CLASS_ITERATOR 1
+#endif
+#ifndef __ACLIC__
+  #define __ACLIC__ 1
+#endif
+
+#define _BACKWARD_BACKWARD_WARNING_H
+#include "././GrowTree_noReg.C"
+
+#undef  _BACKWARD_BACKWARD_WARNING_H
+)DICTPAYLOAD";
+    static const char* classesHeaders[]={
+"GrowTree_noReg", payloadCode, "@",
+"ResetDeleteBranches", payloadCode, "@",
+"getNu4Momentum", payloadCode, "@",
+"makePtEtaPhiE", payloadCode, "@",
+"makePtEtaPhiM", payloadCode, "@",
+"math::XYZTLorentzVector", payloadCode, "@",
+"shift_met_by_Nvtx", payloadCode, "@",
+"shift_metphi_by_Nvtx", payloadCode, "@",
+"weightTrig", payloadCode, "@",
+nullptr};
+
+    static bool isInitialized = false;
+    if (!isInitialized) {
+      TROOT::RegisterModule("GrowTree_noReg_C_ACLiC_dict",
+        headers, includePaths, payloadCode, fwdDeclCode,
+        TriggerDictionaryInitialization_GrowTree_noReg_C_ACLiC_dict_Impl, {}, classesHeaders);
+      isInitialized = true;
+    }
+  }
+  static struct DictInit {
+    DictInit() {
+      TriggerDictionaryInitialization_GrowTree_noReg_C_ACLiC_dict_Impl();
+    }
+  } __TheDictionaryInitializer;
+}
+void TriggerDictionaryInitialization_GrowTree_noReg_C_ACLiC_dict() {
+  TriggerDictionaryInitialization_GrowTree_noReg_C_ACLiC_dict_Impl();
+}

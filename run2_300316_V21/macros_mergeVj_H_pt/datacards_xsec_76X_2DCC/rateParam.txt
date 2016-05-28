@@ -1,0 +1,40 @@
+#bin          SR      TTCR    WbCR    ZbCR
+Zj_norm   rateParam  SR_1    Zj 1 [0.7,1.5]
+Zj_norm   rateParam  ZbCR_2  Zj 1 [0.7,1.5]
+TT_norm     rateParam  SR_1    TT   1 [0.7,1.5]
+TT_norm     rateParam  TTCR_1  TT   1 [0.7,1.5]
+TT_norm     rateParam  WbCR_1   TT   1 [0.7,1.5]
+TT_norm     rateParam  ZbCR_1  TT   1 [0.7,1.5]
+Wj_norm   rateParam  SR_1    Wj 1 [0.7,1.5]
+Wj_norm   rateParam  ZbCR_1  Wj 1 [0.7,1.5]
+Wj_norm   rateParam  WbCR_1   Wj 1 [0.7,1.5]
+Wj_norm   rateParam  TTCR_1  Wj 1 [0.7,1.5]
+
+
+
+
+Zj_norm   rateParam  SR_2    Zj 1 [0.7,1.5]
+Zj_norm   rateParam  ZbCR_2  Zj 1 [0.7,1.5]
+TT_norm     rateParam  SR_2    TT   1 [0.7,1.5]
+TT_norm     rateParam  TTCR_2  TT   1 [0.7,1.5]
+TT_norm     rateParam  WbCR_2   TT   1 [0.7,1.5]
+TT_norm     rateParam  ZbCR_2  TT   1 [0.7,1.5]
+Wj_norm   rateParam  SR_2    Wj 1 [0.7,1.5]
+Wj_norm   rateParam  ZbCR_2  Wj 1 [0.7,1.5]
+Wj_norm   rateParam  WbCR_2   Wj 1 [0.7,1.5]
+Wj_norm   rateParam  TTCR_2  Wj 1 [0.7,1.5]
+
+
+
+
+Zj_norm   rateParam  SR_3    Zj 1 [0.7,1.5]
+Zj_norm   rateParam  ZbCR_3  Zj 1 [0.7,1.5]
+TT_norm     rateParam  SR_3    TT   1 [0.7,1.5]
+TT_norm     rateParam  TTCR_3  TT   1 [0.7,1.5]
+TT_norm     rateParam  WbCR_3   TT   1 [0.7,1.5]
+TT_norm     rateParam  ZbCR_3  TT   1 [0.7,1.5]
+Wj_norm   rateParam  SR_3    Wj 1 [0.7,1.5]
+Wj_norm   rateParam  ZbCR_3  Wj 1 [0.7,1.5]
+Wj_norm   rateParam  WbCR_3   Wj 1 [0.7,1.5]
+Wj_norm   rateParam  TTCR_3  Wj 1 [0.7,1.5]
+

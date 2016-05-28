@@ -1,0 +1,2 @@
+/afs/cern.ch/user/d/degrutto/eos/cms/store/group/phys_higgs/hbb/ntuples/V15/MET/VHBB_HEPPY_V15_MET__Run2015C_25ns-05Oct2015-v1/151027_100957/0000/tree_1.root
+/afs/cern.ch/user/d/degrutto/eos/cms/store/group/phys_higgs/hbb/ntuples/V15/MET/VHBB_HEPPY_V15_MET__Run2015C_25ns-05Oct2015-v1/151027_100957/0000/tree_2.root

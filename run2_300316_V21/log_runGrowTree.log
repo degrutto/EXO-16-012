@@ -1,0 +1,502 @@
+
+Processing ./GrowTree_noReg.C+("WJetsToLNu_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","WJetsHT600")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_WJetsToLNu_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+WJetsToLNu_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8, 0.0706643 ,3000 ,24.477, 1.03915e+06 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- ... Processing event: 40000
+--- ... Processing event: 50000
+--- ... Processing event: 60000
+--- ... Processing event: 70000
+--- ... Processing event: 80000
+--- ... Processing event: 90000
+--- ... Processing event: 100000
+--- End of event loop: Real time 0:00:53, CP time 36.660
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("QCD_HT1000to1500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","QCDHT1000")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_QCD_HT1000to1500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+QCD_HT1000to1500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8, 0.643043 ,3000 ,1064, 4.9639e+06 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- End of event loop: Real time 0:00:10, CP time 9.420
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","QCDHT700")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8, 1.28268 ,3000 ,6524, 1.52587e+07 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- End of event loop: Real time 0:00:16, CP time 10.420
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("QCD_HT2000toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","QCDHT2000")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_QCD_HT2000toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+QCD_HT2000toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8, 0.0398739 ,3000 ,25.42, 1.91253e+06 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- ... Processing event: 40000
+--- ... Processing event: 50000
+--- ... Processing event: 60000
+--- End of event loop: Real time 0:00:44, CP time 26.660
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("TTJets_DiLept_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","TTMadDiLep")...
+Error in <TFile::TFile>: file /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_TTJets_DiLept_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root does not exist
+ERROR: Could not open input file.
+
+Processing ./GrowTree_noReg.C+("MonoHToBBarMZp-600GeV_MA0-300GeV","monoH")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_MonoHToBBarMZp-600GeV_MA0-300GeV.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+MonoHToBBarMZp-600GeV_MA0-300GeV, 4.3275 ,3000 ,0.577, 400 , 0 , 0
+--- ... Processing event: 0
+--- End of event loop: Real time 0:00:00, CP time 0.440
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","TTMadSLepT")...
+Error in <TFile::TFile>: file /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root does not exist
+ERROR: Could not open input file.
+
+Processing ./GrowTree_noReg.C+("ZJetsToNuNu_HT-600ToInf_13TeV-madgraph","ZJetsHT600")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_ZJetsToNuNu_HT-600ToInf_13TeV-madgraph.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+ZJetsToNuNu_HT-600ToInf_13TeV-madgraph, 0.0134607 ,3000 ,4.5243, 1.00833e+06 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- ... Processing event: 40000
+--- ... Processing event: 50000
+--- ... Processing event: 60000
+--- ... Processing event: 70000
+--- ... Processing event: 80000
+--- ... Processing event: 90000
+--- ... Processing event: 100000
+--- ... Processing event: 110000
+--- ... Processing event: 120000
+--- ... Processing event: 130000
+--- ... Processing event: 140000
+--- ... Processing event: 150000
+--- ... Processing event: 160000
+--- ... Processing event: 170000
+--- ... Processing event: 180000
+--- ... Processing event: 190000
+--- End of event loop: Real time 0:03:25, CP time 82.110
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("WJetsToLNu_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","WJetsHT100")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_WJetsToLNu_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+WJetsToLNu_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8, 0.46885 ,3000 ,1586.7, 1.01527e+07 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- End of event loop: Real time 0:00:08, CP time 5.740
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("ST_tW_top_5f_inclusiveDecays_13TeV-powheg-pythia8_TuneCUETP8M1","T_tW")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_ST_tW_top_5f_inclusiveDecays_13TeV-powheg-pythia8_TuneCUETP8M1.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+ST_tW_top_5f_inclusiveDecays_13TeV-powheg-pythia8_TuneCUETP8M1, 0.216051 ,3000 ,71.7, 995600 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- End of event loop: Real time 0:00:07, CP time 4.680
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("MonoHToBBarMZp-1000GeV_MA0-300GeV","monoH")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_MonoHToBBarMZp-1000GeV_MA0-300GeV.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+MonoHToBBarMZp-1000GeV_MA0-300GeV, 4.3275 ,3000 ,0.577, 400 , 0 , 0
+--- ... Processing event: 0
+--- End of event loop: Real time 0:00:00, CP time 0.410
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("TT_TuneCUETP8M1_13TeV-powheg-pythia8","TTPow")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_TT_TuneCUETP8M1_13TeV-powheg-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+TT_TuneCUETP8M1_13TeV-powheg-pythia8, 0.122857 ,3000 ,809.1, 1.97572e+07 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- ... Processing event: 40000
+--- ... Processing event: 50000
+--- ... Processing event: 60000
+--- ... Processing event: 70000
+--- ... Processing event: 80000
+--- ... Processing event: 90000
+--- ... Processing event: 100000
+--- ... Processing event: 110000
+--- ... Processing event: 120000
+--- ... Processing event: 130000
+--- ... Processing event: 140000
+--- ... Processing event: 150000
+--- ... Processing event: 160000
+--- ... Processing event: 170000
+--- ... Processing event: 180000
+--- ... Processing event: 190000
+--- ... Processing event: 200000
+--- ... Processing event: 210000
+--- ... Processing event: 220000
+--- ... Processing event: 230000
+--- ... Processing event: 240000
+--- ... Processing event: 250000
+--- ... Processing event: 260000
+--- ... Processing event: 270000
+--- ... Processing event: 280000
+--- ... Processing event: 290000
+--- ... Processing event: 300000
+--- ... Processing event: 310000
+--- ... Processing event: 320000
+--- ... Processing event: 330000
+--- ... Processing event: 340000
+--- End of event loop: Real time 0:03:07, CP time 135.490
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("MonoHToBBarMZp-1200GeV_MA0-300GeV","monoH")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_MonoHToBBarMZp-1200GeV_MA0-300GeV.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+MonoHToBBarMZp-1200GeV_MA0-300GeV, 4.3275 ,3000 ,0.577, 400 , 0 , 0
+--- ... Processing event: 0
+--- End of event loop: Real time 0:00:01, CP time 0.410
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("ggZH_HToBB_ZToNuNu_M125_13TeV_amcatnlo_pythia8","ggZH125")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_ggZH_HToBB_ZToNuNu_M125_13TeV_amcatnlo_pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+ggZH_HToBB_ZToNuNu_M125_13TeV_amcatnlo_pythia8, 6.42451e-05 ,3000 ,0.0243956, 1.13918e+06 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- ... Processing event: 40000
+--- ... Processing event: 50000
+--- ... Processing event: 60000
+--- ... Processing event: 70000
+--- ... Processing event: 80000
+--- ... Processing event: 90000
+--- ... Processing event: 100000
+--- ... Processing event: 110000
+--- ... Processing event: 120000
+--- ... Processing event: 130000
+--- ... Processing event: 140000
+--- ... Processing event: 150000
+--- ... Processing event: 160000
+--- ... Processing event: 170000
+--- ... Processing event: 180000
+--- ... Processing event: 190000
+--- ... Processing event: 200000
+--- ... Processing event: 210000
+--- ... Processing event: 220000
+--- ... Processing event: 230000
+--- ... Processing event: 240000
+--- End of event loop: Real time 0:01:52, CP time 73.530
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("ZZ_TuneCUETP8M1_13TeV-pythia8","ZZ")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_ZZ_TuneCUETP8M1_13TeV-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+ZZ_TuneCUETP8M1_13TeV-pythia8, 0.0521817 ,3000 ,17.3407, 996944 , 0 , 0
+--- ... Processing event: 0
+--- End of event loop: Real time 0:00:02, CP time 1.850
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("ZJetsToNuNu_HT-100To200_13TeV-madgraph","ZJetsHT100")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_ZJetsToNuNu_HT-100To200_13TeV-madgraph.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+ZJetsToNuNu_HT-100To200_13TeV-madgraph, 0.256779 ,3000 ,409.86, 4.78847e+06 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- End of event loop: Real time 0:00:08, CP time 6.130
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM","TTMadSLepTbar")...
+Error in <TFile::TFile>: file /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM.root does not exist
+ERROR: Could not open input file.
+
+Processing ./GrowTree_noReg.C+("ST_tW_antitop_5f_inclusiveDecays_13TeV-powheg-pythia8_TuneCUETP8M1","Tbar_tW")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_ST_tW_antitop_5f_inclusiveDecays_13TeV-powheg-pythia8_TuneCUETP8M1.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+ST_tW_antitop_5f_inclusiveDecays_13TeV-powheg-pythia8_TuneCUETP8M1, 0.0707436 ,3000 ,23.31, 988500 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- End of event loop: Real time 0:00:08, CP time 4.870
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("WZ_TuneCUETP8M1_13TeV-pythia8","WZ")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_WZ_TuneCUETP8M1_13TeV-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+WZ_TuneCUETP8M1_13TeV-pythia8, 0.2169 ,3000 ,70.7465, 978512 , 0 , 0
+--- ... Processing event: 0
+--- End of event loop: Real time 0:00:02, CP time 1.520
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("QCD_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","QCDHT300")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_QCD_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+QCD_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8, 55.8049 ,3000 ,367000, 1.97294e+07 , 0 , 0
+--- ... Processing event: 0
+--- End of event loop: Real time 0:00:01, CP time 0.920
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("ZJetsToNuNu_HT-400To600_13TeV-madgraph","ZJetsHT400")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_ZJetsToNuNu_HT-400To600_13TeV-madgraph.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+ZJetsToNuNu_HT-400To600_13TeV-madgraph, 0.0388337 ,3000 ,13.189, 1.01888e+06 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- ... Processing event: 40000
+--- ... Processing event: 50000
+--- ... Processing event: 60000
+--- ... Processing event: 70000
+--- ... Processing event: 80000
+--- ... Processing event: 90000
+--- ... Processing event: 100000
+--- ... Processing event: 110000
+--- ... Processing event: 120000
+--- ... Processing event: 130000
+--- End of event loop: Real time 0:01:13, CP time 50.220
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("WJetsToLNu_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","WJetsHT400")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_WJetsToLNu_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+WJetsToLNu_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8, 0.101237 ,3000 ,58.917, 1.74591e+06 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- ... Processing event: 40000
+--- ... Processing event: 50000
+--- ... Processing event: 60000
+--- ... Processing event: 70000
+--- ... Processing event: 80000
+--- ... Processing event: 90000
+--- ... Processing event: 100000
+--- ... Processing event: 110000
+--- End of event loop: Real time 0:01:01, CP time 42.190
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","QCDHT500")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8, 4.48532 ,3000 ,29400, 1.96642e+07 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- End of event loop: Real time 0:00:06, CP time 3.710
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("ST_t-channel_antitop_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1","Tbar_t_lep")...
+Error in <TFile::TFile>: file /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_ST_t-channel_antitop_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1.root does not exist
+ERROR: Could not open input file.
+
+Processing ./GrowTree_noReg.C+("TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","TTMadSLepTbar")...
+Error in <TFile::TFile>: file /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_TTJets_SingleLeptFromTbar_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root does not exist
+ERROR: Could not open input file.
+
+Processing ./GrowTree_noReg.C+("QCD_HT100to200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","QCDHT100")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_QCD_HT100to200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+QCD_HT100to200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8, 1010.56 ,3000 ,2.75e+07, 8.16376e+07 , 0 , 0
+--- ... Processing event: 0
+--- End of event loop: Real time 0:00:00, CP time 0.290
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("QCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","QCDHT200")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_QCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+QCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8, 278.862 ,3000 ,1.74e+06, 1.87189e+07 , 0 , 0
+--- ... Processing event: 0
+--- End of event loop: Real time 0:00:00, CP time 0.340
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("WW_TuneCUETP8M1_13TeV-pythia8","WW")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_WW_TuneCUETP8M1_13TeV-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+WW_TuneCUETP8M1_13TeV-pythia8, 0.358379 ,3000 ,118.7, 993640 , 0 , 0
+--- ... Processing event: 0
+--- End of event loop: Real time 0:00:01, CP time 1.330
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("ST_t-channel_top_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1","T_t_lep")...
+Error in <TFile::TFile>: file /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_ST_t-channel_top_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1.root does not exist
+ERROR: Could not open input file.
+
+Processing ./GrowTree_noReg.C+("TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_ext1-v1","TTMadSLepT")...
+Error in <TFile::TFile>: file /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_ext1-v1.root does not exist
+ERROR: Could not open input file.
+
+Processing ./GrowTree_noReg.C+("MonoHToBBarMZp-800GeV_MA0-300GeV","monoH")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_MonoHToBBarMZp-800GeV_MA0-300GeV.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+MonoHToBBarMZp-800GeV_MA0-300GeV, 4.3275 ,3000 ,0.577, 400 , 0 , 0
+--- ... Processing event: 0
+--- End of event loop: Real time 0:00:00, CP time 0.410
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1","T_s_comb_lep")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1, 0.01019 ,3000 ,3.34368, 984400 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- End of event loop: Real time 0:00:05, CP time 4.580
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("QCD_HT1500to2000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","QCDHT1500")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_QCD_HT1500to2000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+QCD_HT1500to2000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8, 0.0987405 ,3000 ,121.5, 3.6915e+06 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- ... Processing event: 40000
+--- ... Processing event: 50000
+--- ... Processing event: 60000
+--- End of event loop: Real time 0:00:33, CP time 21.560
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("ZJetsToNuNu_HT-200To400_13TeV-madgraph","ZJetsHT200")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_ZJetsToNuNu_HT-200To400_13TeV-madgraph.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+ZJetsToNuNu_HT-200To400_13TeV-madgraph, 0.0665504 ,3000 ,110.88, 4.99832e+06 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- ... Processing event: 40000
+--- ... Processing event: 50000
+--- ... Processing event: 60000
+--- ... Processing event: 70000
+--- ... Processing event: 80000
+--- ... Processing event: 90000
+--- ... Processing event: 100000
+--- ... Processing event: 110000
+--- ... Processing event: 120000
+--- ... Processing event: 130000
+--- ... Processing event: 140000
+--- ... Processing event: 150000
+--- ... Processing event: 160000
+--- ... Processing event: 170000
+--- ... Processing event: 180000
+--- ... Processing event: 190000
+--- ... Processing event: 200000
+--- ... Processing event: 210000
+--- ... Processing event: 220000
+--- ... Processing event: 230000
+--- ... Processing event: 240000
+--- ... Processing event: 250000
+--- ... Processing event: 260000
+--- ... Processing event: 270000
+--- End of event loop: Real time 0:02:02, CP time 90.210
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("ZZTo2Q2Nu_13TeV_amcatnloFXFX_madspin_pythia8","ZqqZnunu")...
+Error in <TFile::TFile>: file /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_ZZTo2Q2Nu_13TeV_amcatnloFXFX_madspin_pythia8.root does not exist
+ERROR: Could not open input file.
+
+Processing ./GrowTree_noReg.C+("ZH_HToBB_ZToNuNu_M125_13TeV_amcatnloFXFX_madspin_pythia8","ZnnH125")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_ZH_HToBB_ZToNuNu_M125_13TeV_amcatnloFXFX_madspin_pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+ZH_HToBB_ZToNuNu_M125_13TeV_amcatnloFXFX_madspin_pythia8, 0.000124989 ,3000 ,0.0881541, 2.11588e+06 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- ... Processing event: 40000
+--- ... Processing event: 50000
+--- ... Processing event: 60000
+--- ... Processing event: 70000
+--- ... Processing event: 80000
+--- ... Processing event: 90000
+--- ... Processing event: 100000
+--- ... Processing event: 110000
+--- ... Processing event: 120000
+--- ... Processing event: 130000
+--- ... Processing event: 140000
+--- ... Processing event: 150000
+--- ... Processing event: 160000
+--- ... Processing event: 170000
+--- ... Processing event: 180000
+--- End of event loop: Real time 0:01:26, CP time 63.910
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("WJetsToLNu_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8","WJetsHT200")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_WJetsToLNu_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+WJetsToLNu_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8, 0.272779 ,3000 ,474.78, 5.2216e+06 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- ... Processing event: 40000
+--- ... Processing event: 50000
+--- ... Processing event: 60000
+--- ... Processing event: 70000
+--- ... Processing event: 80000
+--- ... Processing event: 90000
+--- ... Processing event: 100000
+--- ... Processing event: 110000
+--- End of event loop: Real time 0:00:55, CP time 32.210
+==> GrowTree is done!
+
+
+Processing ./GrowTree_noReg.C+("WH_HToBB_WToLNu_M125_13TeV_amcatnloFXFX_madspin_pythia8","WlnH125")...
+--- GrowTree                 : Using input file: /afs/cern.ch/work/d/degrutto/public/MiniAOD/V14_FromSilvio/ZvvHighPt_V14_WH_HToBB_WToLNu_M125_13TeV_amcatnloFXFX_madspin_pythia8.root
+sample, efflumi, lumiToScale, xsec,  hcount->GetBinContent(1) , hcount->GetBinContent(2), hcount->GetBinContent(3) 
+WH_HToBB_WToLNu_M125_13TeV_amcatnloFXFX_madspin_pythia8, 0.000355178 ,3000 ,0.257988, 2.17909e+06 , 0 , 0
+--- ... Processing event: 0
+--- ... Processing event: 10000
+--- ... Processing event: 20000
+--- ... Processing event: 30000
+--- ... Processing event: 40000
+--- ... Processing event: 50000
+--- ... Processing event: 60000
+--- ... Processing event: 70000
+--- End of event loop: Real time 0:00:35, CP time 23.850
+==> GrowTree is done!
+

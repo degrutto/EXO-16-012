@@ -1,0 +1,44 @@
+imax 1 number of channels
+jmax 9 number of processes minus 1 ('*' = automatic)
+kmax * number of nuisance parameters (sources of systematical uncertainties)
+-----------------------------------
+shapes * * zp600metH150_mt_TT.root $PROCESS $PROCESS_$SYSTEMATIC
+-----------------------------------
+bin         monoH_Zp600_13TeV
+observation 452.000
+#prediction 497.575
+-----------------------------------
+bin         monoH_Zp600_13TeV   monoH_Zp600_13TeV   monoH_Zp600_13TeV   monoH_Zp600_13TeV   monoH_Zp600_13TeV   monoH_Zp600_13TeV   monoH_Zp600_13TeV   monoH_Zp600_13TeV   monoH_Zp600_13TeV   monoH_Zp600_13TeV   
+process     monoH  ggZH      ZH         WH         Wj          Zj        TT         ST         VV       QCD  
+process     -1          9        10         11          1          2          3          4          5          6             
+rate             0.002      0.000      0.001      0.556    177.910      0.023    214.388     95.982      8.297       0.417
+-----------------------------------
+
+# This datacard is for demonstration purposes only!
+#################################### #####  monoH ggZH   ZH    WH    Wj   Zj  TT    ST    VV    QCD 
+lumi_13TeV                           lnN    1.04  1.04  1.04 1.04 -       -     -     1.04 1.04 1.04 
+pdf_qqbar                            lnN    1.01    -      1.01  1.01  -        -     -     -     1.01  -     
+pdf_gg                               lnN    -   1.50   -     -     -     -         -   1.05     -     1.50  
+QCDscale_VH                          lnN    1.04      -    1.04  1.04  -     -          -     -     -     -     
+QCDscale_ggZH                        lnN    -      1.18   -  -     -     -        -     -     -     -     
+QCDscale_VV                          lnN    -      -      -     -     -         -     -     -     1.04  -     
+QCDscale_QCD                         lnN    -      -     -      -     -         -     -     -     1.50  -     
+CMS_monoHbb_ST                          lnN    -      -      -      -     -        -     -    1.25  -     -     
+CMS_monoHbb_VV                          lnN    -      -      -      -     -        -     -     -     1.25 -     
+CMS_monoHbb_eff_b                       lnN    1.07   1.07   1.07  1.07   -        -     -    1.07  1.07  1.07  
+CMS_monoHbb_fake_b_13TeV                lnN    -   -   -  -   -         -     -    1.03     1.03    -   
+CMS_monoHbb_res_j                       lnN    1.05   1.05   1.05  1.05   -        -     -    1.05  1.05  1.05  
+CMS_monoHbb_scale_j                     lnN    1.05   1.05   1.05  1.05   -        -    -     1.05  1.05  1.05  
+CMS_monoHbb_WjHFUnc_SF                     lnN    -      -     -     -       1.10  -     -     -     -     -      -     
+CMS_monoHbb_monoH_stat                   lnN    1.54  -   -        -     -     -     -     -     -     -     
+CMS_monoHbb_ggZH_stat                   lnN    -     1.36  -     -        -     -     -     -     -     -     
+CMS_monoHbb_ZH_stat                     lnN    -     -     1.42  -     -         -     -     -     -     -     
+CMS_monoHbb_WH_stat                     lnN    -     -     -     1.04  -        -     -     -     -     -     
+CMS_monoHbb_Wj_stat                   lnN    -     -     -     -     1.03  -     -     -     -     -     -     -         
+CMS_monoHbb_Zj_stat                   lnN    -     -       -     -     -     1.71  -     -     -     -                         
+CMS_monoHbb_TT_stat                     lnN    -     -     -     -     -     -     1.06  -     -     -                               
+CMS_monoHbb_ST_stat                     lnN    -     -     -     -     -     -     -     1.04  -     -                               
+CMS_monoHbb_VV_stat                     lnN    -     -     -     -     -     -     -     -    1.17  -                               
+CMS_monoHbb_QCD_stat                    lnN     -     -     -     -     -     -     -     -    -    1.63                                
+CMS_monoHbb_trigger_MET                 lnN    1.03   1.03    1.03  1.03  -        -     -     1.03  1.03  1.03 
+#################################### #####  monoH    ggZH    ZH    WH    Wj  Zj  TT    ST    VV    QCD  
